@@ -38,7 +38,7 @@ html {
 }
 
 .eyes {
-  animation: back-and-forth 2s linear infinite;
+  animation: back-and-forth 3s linear infinite;
 }
 
 .left-ear {
@@ -56,7 +56,7 @@ html {
 }
 
 .head:hover .right-ear {
-  transform: rotate(-10deg);
+  transform: rotate(-5deg);
 }
 
 @keyframes back-and-forth {
@@ -66,7 +66,7 @@ html {
   }
 
   25% {
-    transform: translate(30px, 0);
+    transform: translate(9px, 0);
   }
 
   50% {
@@ -74,7 +74,7 @@ html {
   }
 
   75% {
-    transform: translate(-30px, 0);
+    transform: translate(-9px, 0);
   }
 
   100% {
